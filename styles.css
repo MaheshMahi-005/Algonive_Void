@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #4f46e5, #60a5fa);
+    background: white;
     font-family: Arial, sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 .dashboard {
     width: 900px;
-    background: white;
+    background: rgb(202, 171, 171);
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
