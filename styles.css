@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4f46e5, #60a5fa);
+    font-family: Arial, sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+.container {
+    width: 350px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.dashboard {
+    width: 900px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.switch {
+    background: none;
+    border: none;
+    color: #2563eb;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.switch:hover {
+    color: #1d4ed8;
+}
+
+
+input{
+    padding: 10px;
+    margin:10px;
+    width: 80%;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.733);
+    border-radius: 20px;
+}
+
+button{
+    
+    padding: 6px 12px;
+    border-radius: 6px;
+    border:none;
+    cursor: pointer;
+    font-size: 13px;
+}
+.add-btn {
+    padding: 15px;
+    background: #2563eb;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.add-btn:hover {
+    background: #1d4ed8;
+}
+
+.btn-1 {
+    background: #ef4444;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+
+
+.tsks{
+     display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.stat-btn {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+}
+
+.stat-btn button {
+    background: #e5e7eb;
+}
+/* .active-pending {
+    background: #ef4444;
+    color: white;
+}
+
+.active-progress {
+    background: #f59e0b;
+    color: white;
+}
+
+.active-completed {
+    background: #10b981;
+    color: white;
+} */

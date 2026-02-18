@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="title">Void</h2>
+        <input type="text" id="user" placeholder="Enter Username">
+        <input type="password" id="pass" placeholder="Enter Password">
+        <button id="authBtn" onclick="loginUser()">Login</button>
+        <button class="switch" onclick="newUser()" id="new">New account</button>
+    </div>
+
+    <div class="dashboard hidden">
+        <div class="board">
+            <h2>Tasks Dashboard</h2>
+            <div class="logo">
+                <span id="welcome"></span>
+                <button class="btn-1"  onclick="logout()"><img src="img.png" alt="Logout" width="18"></button>
+            </div>
+       </div> 
+        <div class="tsks">
+            <input type="text" id="taskTitle" placeholder="Task Title">            
+            <input type="text" id="assignedTo" placeholder="Assign To">            
+            <input type="date" id="dueDate">  
+            <button  class="add-btn" onclick="addTask()">Add</button>
+        </div>
+
+        <div id="list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
